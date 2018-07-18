@@ -1,0 +1,1 @@
+module.exports.RouteReducer = require('src/RootReducer') 
