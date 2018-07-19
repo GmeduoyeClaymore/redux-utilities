@@ -1,1 +1,7 @@
 module.exports.RouteReducer = require('src/RootReducer') 
+module.exports.connectAdvanced = require('src/connectAdvanced') 
+module.exports.connect = require('src/connect') 
+module.exports.isEqual = require('src/is-equal') 
+module.exports.memoize = require('src/memoize') 
+module.exports.removeProperties = require('src/removeProperties') 
+module.exports.withExternalState = require('src/withExternalState') 
