@@ -1,5 +1,5 @@
 
-export {default as RootReducer} from './src/RootReducer'
+export {default as ComponentReducer} from './src/ComponentReducer'
 export {default as connectAdvanced} from './src/connectAdvanced'
 export {default as connect} from './src/connect'
 export {default as isEqual} from './src/is-equal'
