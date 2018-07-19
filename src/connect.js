@@ -25,3 +25,4 @@ export const connect = (mapStateToProps = (_, props) => props, ignorefuncs = tru
   selectorFactory(ignorefuncs, mapStateToProps), {withRef}
 )(component);
 
+export default connect;
