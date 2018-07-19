@@ -1,7 +1,9 @@
-module.exports.RouteReducer = require('src/RootReducer') 
-module.exports.connectAdvanced = require('src/connectAdvanced') 
-module.exports.connect = require('src/connect') 
-module.exports.isEqual = require('src/is-equal') 
-module.exports.memoize = require('src/memoize') 
-module.exports.removeProperties = require('src/removeProperties') 
-module.exports.withExternalState = require('src/withExternalState') 
+
+export {default as RootReducer} from 'src/RootReducer'
+export {default as connectAdvanced} from 'src/connectAdvanced'
+export {default as connect} from 'src/connect'
+export {default as isEqual} from 'src/isEqual'
+export {default as memoize} from 'src/memoize'
+export {default as reduxHelper} from 'src/reduxHelper'
+export {default as removeProperties} from 'src/removeProperties'
+export {default as withExternalState} from 'src/withExternalState'
