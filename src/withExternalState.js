@@ -2,7 +2,7 @@
 import React from 'react';
 import NonReactStatics from 'hoist-non-react-statics';
 import {connect} from './connect';
-import {UPDATE_COMPONENT_STATE, CLEAR_COMPONENT_STATE} from 'common/dao/ActionConstants';
+import {UPDATE_COMPONENT_STATE, CLEAR_COMPONENT_STATE} from './ComponentActionConstants';
 import removeProperties from './removeProperties';
 import invariant  from 'invariant';
 
