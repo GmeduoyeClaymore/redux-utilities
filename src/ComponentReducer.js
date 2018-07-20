@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux-seamless-immutable';
 import {RESET_ALL_COMPONENT_STATE, UPDATE_COMPONENT_STATE, CLEAR_COMPONENT_STATE} from './ComponentActionConstants';
 
-const component = (state = {}, action) => {
+export const componentReducer = (state = {}, action) => {
   if (action.type && (action.type.startsWith(UPDATE_COMPONENT_STATE('')))){
     const path = action.pa
     th || [];
@@ -26,4 +26,4 @@ const component = (state = {}, action) => {
   return state;
 };
 
-export default rootReducer = combineReducers({dao, component});
+export default componentReducer;
